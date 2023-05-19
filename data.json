@@ -1,200 +1,178 @@
 [
     {
         "Seller": "Emma Wilson",
-        "Toy Name": "Play Kitchen Set",
+        "Toy Name": "Turbo Racers",
         "Image": "https://i.ibb.co/pLMDwnw/1.jpg",
         "Sub-category": "Automobiles",
         "Price": "$34.99",
-        "Available Quantity": 3,
-        "View Details button": "[View Details]"
+        "Available Quantity": 3
       },
       {
         "Seller": "Liam Thompson",
-        "Toy Name": "Dinosaur Figures Set",
+        "Toy Name": "Velocity Wheels",
         "Image": "https://i.ibb.co/mCQShY4/3c79a8b9-fed2-485f-8cff-71787afaebc1-8904af456a88ba59e0300d5477e7d3f0.jpg",
         "Sub-category": "Automobiles",
         "Price": "$19.99",
-        "Available Quantity": 6,
-        "View Details button": "[View Details]"
+        "Available Quantity": 6
       },
       {
         "Seller": "Charlotte Davis",
         "Toy Name": "Musical Instrument Set",
         "Image": "[Insert Musical Instrument Set Image URL]",
-        "Sub-category": "Toys",
+        "Sub-category": "construction",
         "Price": "$28.99",
-        "Available Quantity": 2,
-        "View Details button": "[View Details]"
+        "Available Quantity": 2
       },
       {
         "Seller": "Oliver Johnson",
         "Toy Name": "Building Block Table",
         "Image": "[Insert Building Block Table Image URL]",
-        "Sub-category": "Blocks",
+        "Sub-category": "construction",
         "Price": "$45.99",
-        "Available Quantity": 1,
-        "View Details button": "[View Details]"
+        "Available Quantity": 1
       },
       {
         "Seller": "Ava Smith",
         "Toy Name": "Stuffed Unicorn",
         "Image": "[Insert Stuffed Unicorn Image URL]",
-        "Sub-category": "Animals",
+        "Sub-category": "construction",
         "Price": "$9.99",
-        "Available Quantity": 10,
-        "View Details button": "[View Details]"
+        "Available Quantity": 10
       },
       {
         "Seller": "Noah Brown",
         "Toy Name": "Science Experiment Kit",
         "Image": "[Insert Science Experiment Kit Image URL]",
-        "Sub-category": "Toys",
+        "Sub-category": "construction",
         "Price": "$17.99",
-        "Available Quantity": 5,
-        "View Details button": "[View Details]"
+        "Available Quantity": 5
       },
       {
         "Seller": "Mia Johnson",
         "Toy Name": "Dollhouse Furniture Set",
         "Image": "[Insert Dollhouse Furniture Set Image URL]",
-        "Sub-category": "",
+        "Sub-category": "Flying",
         "Price": "$12.99",
-        "Available Quantity": 8,
-        "View Details button": "[View Details]"
+        "Available Quantity": 8
       },
       {
         "Seller": "Ethan Wilson",
         "Toy Name": "Remote Control Drone",
         "Image": "[Insert Remote Control Drone Image URL]",
-        "Sub-category": "Vehicles",
+        "Sub-category": "Flying",
         "Price": "$69.99",
-        "Available Quantity": 3,
-        "View Details button": "[View Details]"
+        "Available Quantity": 3
       },
       {
         "Seller": "Sophia Taylor",
         "Toy Name": "Art Supplies Kit",
         "Image": "[Insert Art Supplies Kit Image URL]",
-        "Sub-category": "& Crafts",
+        "Sub-category": "Flying",
         "Price": "$21.99",
-        "Available Quantity": 4,
-        "View Details button": "[View Details]"
+        "Available Quantity": 4
       },
       {
         "Seller": "William Anderson",
         "Toy Name": "Wooden Train Set",
         "Image": "[Insert Wooden Train Set Image URL]",
-        "Sub-category": "Playsets",
+        "Sub-category": "Flying",
         "Price": "$39.99",
-        "Available Quantity": 2,
-        "View Details button": "[View Details]"
+        "Available Quantity": 2
       },
       {
         "Seller": "Isabella Thompson",
         "Toy Name": "Doctor Playset",
         "Image": "[Insert Doctor Playset Image URL]",
-        "Sub-category": "Play",
+        "Sub-category": "Flying",
         "Price": "$14.99",
-        "Available Quantity": 7,
-        "View Details button": "[View Details]"
+        "Available Quantity": 7
       },
       {
         "Seller": "James Johnson",
         "Toy Name": "Puppet Theater",
         "Image": "[Insert Puppet Theater Image URL]",
-        "Sub-category": "Play",
+        "Sub-category": "Flying",
         "Price": "$24.99",
-        "Available Quantity": 3,
-        "View Details button": "[View Details]"
+        "Available Quantity": 3
       },
       {
         "Seller": "Harper Davis",
-        "Toy Name": "Building Block Vehicle Set",
-        "Image": "[Insert Building Block Vehicle Set Image URL]",
-        "Sub-category": "Blocks",
+        "Toy Name": "Ship Winds Voyager",
+        "Image": "https://i.ibb.co/YjgdNfv/bd7d9951-c29a-469f-9610-8cc589655b5b-a2b8bbde383afe39e92b38bc6eafa3c9.jpg",
+        "Sub-category": "Sailing",
         "Price": "$16.99",
-        "Available Quantity": 5,
-        "View Details button": "[View Details]"
+        "Available Quantity": 5
       },
       {
         "Seller": "Benjamin Wilson",
-        "Toy Name": "Animal Puzzle",
-        "Image": "[Insert Animal Puzzle Image URL]",
-        "Sub-category": " ",
+        "Toy Name": "Ship Sail Seeker",
+        "Image": "https://i.ibb.co/nwPpfCq/49556c21-ca9a-4181-9523-f49f240a2a4c-4d0aecdaba247aa9055a9c4c33aadab9.jpg",
+        "Sub-category": "Sailing",
         "Price": "$9.99",
-        "Available Quantity": 10,
-        "View Details button": "[View Details]"
+        "Available Quantity": 10
       },
       {
         "Seller": "Avery Brown",
-        "Toy Name": "Giant Coloring Poster",
-        "Image": "[Insert Giant Coloring Poster Image URL]",
-        "Sub-category": "& Crafts",
+        "Toy Name": "Sail Ship Explorer",
+        "Image": "https://i.ibb.co/KKyZwM3/9815f95e-d4c4-41dc-b6c3-bdd774f6c270-02bae05c446cade45f50fec9d7740879.jpg",
+        "Sub-category": "Sailing",
         "Price": "$7.99",
-        "Available Quantity": 6,
-        "View Details button": "[View Details]"
+        "Available Quantity": 6
       },
       {
         "Seller": "Mason Taylor",
-        "Toy Name": "Robot Building Kit",
-        "Image": "[Insert Robot Building Kit Image URL]",
-        "Sub-category": "Toys",
+        "Toy Name": "Ship Mates Adventure",
+        "Image": "https://i.ibb.co/tKS5Yd3/0560b37c-68df-4371-ada2-5355f0e5e712-277dfe948f19363ce9c0806d0075a9f6.jpg",
+        "Sub-category": "Sailing",
         "Price": "$29.99",
-        "Available Quantity": 4,
-        "View Details button": "[View Details]"
+        "Available Quantity": 4
       },
       {
         "Seller": "Isabella Thompson",
-        "Toy Name": "Doctor Playset",
-        "Image": "[Insert Doctor Playset Image URL]",
-        "Sub-category": "Play",
+        "Toy Name": "SeaSail Ship wrecker",
+        "Image": "https://i.ibb.co/bsTRZSp/9fb2996e-4b9f-456e-ace8-47390f7c9afc-4c119ebd894ba6df2f0df53cb7784876.jpg",
+        "Sub-category": "Sailing",
         "Price": "$14.99",
-        "Available Quantity": 7,
-        "View Details button": "[View Details]"
+        "Available Quantity": 7
       },
       {
         "Seller": "James Johnson",
-        "Toy Name": "Puppet Theater",
-        "Image": "[Insert Puppet Theater Image URL]",
-        "Sub-category": "Play",
+        "Toy Name": "Ship Mates Adventure",
+        "Image": "https://i.ibb.co/sVVyK9H/9c147204-8e12-4ecf-aef9-91dfbf876790-414d5884af3741b4a90acc0de4e9abf7.jpg",
+        "Sub-category": "Sailing",
         "Price": "$24.99",
-        "Available Quantity": 3,
-        "View Details button": "[View Details]"
+        "Available Quantity": 3
       },
       {
         "Seller": "Harper Davis",
-        "Toy Name": "Building Block Vehicle Set",
-        "Image": "[Insert Building Block Vehicle Set Image URL]",
-        "Sub-category": "Blocks",
+        "Toy Name": "Sail Ship Explorer",
+        "Image": "https://i.ibb.co/k2dSgg3/ec4600f3-a1b6-4c19-bc30-de3d6c37bb39-dcf9726714c579155fc5d3bdd42350d3.jpg",
+        "Sub-category": "Sailing",
         "Price": "$16.99",
-        "Available Quantity": 5,
-        "View Details button": "[View Details]"
+        "Available Quantity": 5
       },
       {
         "Seller": "Benjamin Wilson",
-        "Toy Name": "Animal Puzzle",
-        "Image": "[Insert Animal Puzzle Image URL]",
-        "Sub-category": "",
+        "Toy Name": "Power Plower tractor",
+        "Image": "https://i.ibb.co/hV8qwg6/ezgif-com-webp-to-jpg-1.jpg",
+        "Sub-category": "Tractor",
         "Price": "$9.99",
-        "Available Quantity": 10,
-        "View Details button": "[View Details]"
+        "Available Quantity": 10
       },
       {
         "Seller": "Avery Brown",
-        "Toy Name": "Giant Coloring Poster",
-        "Image": "[Insert Giant Coloring Poster Image URL]",
-        "Sub-category": "& Crafts",
+        "Toy Name": "Tractor Tuff",
+        "Image": "https://i.ibb.co/jH6rc1L/ezgif-com-webp-to-jpg.jpg",
+        "Sub-category": "Tractor",
         "Price": "$7.99",
-        "Available Quantity": 6,
-        "View Details button": "[View Details]"
+        "Available Quantity": 6
       },
       {
         "Seller": "Mason Taylor",
-        "Toy Name": "Robot Building Kit",
-        "Image": "[Insert Robot Building Kit Image URL]",
-        "Sub-category": "Toys",
+        "Toy Name": "Cargo Master",
+        "Image": "https://i.ibb.co/G719fg1/ezgif-com-webp-to-jpg.jpg",
+        "Sub-category": "Cargo",
         "Price": "$29.99",
-        "Available Quantity": 4,
-        "View Details button": "[View Details]"
+        "Available Quantity": 4
       }
 ]
