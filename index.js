@@ -32,11 +32,20 @@ async function run() {
     await client.connect();
 
 
-    app.get("/vehicles", async(req, res) => {
-      const products = vehicleCollection.find();
-      const result = await products.toArray();
-      res.send(result)
-    })
+    app.get("/vehicles", async (req, res) => {
+      let query = {};
+      if (req.query.ToyName) {
+        console.log(req.query.ToyName);
+        query = { ToyName: { $regex: req.query.ToyName, $options: "i" } };
+      }
+      const result = await vehicleCollection.find(query).toArray();
+      console.log(result);
+      res.send(result);
+    });
+
+
+
+    
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
     console.log("Pinged your deployment. You successfully connected to MongoDB!");
@@ -48,9 +57,9 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-    res.send('vehicle running')
-  })
-  
-  app.listen(port, () => {
-    console.log(`server is running on port: ${port}`);
-  })
+  res.send('vehicle running')
+})
+
+app.listen(port, () => {
+  console.log(`server is running on port: ${port}`);
+})
