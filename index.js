@@ -1,5 +1,6 @@
 const express = require('express');
 require('dotenv').config()
+const { MongoClient, ServerApiVersion } = require('mongodb');
 const app = express();
 const cors = require('cors');
 const port = process.env.PORT || 5000;
@@ -9,14 +10,10 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-//vehicleFunland
-//ghTPYB01mbtxIcQu
-
-
-const { MongoClient, ServerApiVersion } = require('mongodb');
 const uri = `mongodb+srv://${process.env.USER_ID}:${process.env.USER_PASS}@cluster0.rko4yag.mongodb.net/?retryWrites=true&w=majority`;
 
-// Create a MongoClient with a MongoClientOptions object to set the Stable API version
+
+
 const client = new MongoClient(uri, {
   serverApi: {
     version: ServerApiVersion.v1,
@@ -25,10 +22,21 @@ const client = new MongoClient(uri, {
   }
 });
 
+
+
+
 async function run() {
   try {
-    // Connect the client to the server	(optional starting in v4.7)
+    const database = client.db("vehicleFunland");
+    const vehicleCollection = database.collection("vehicles");
     await client.connect();
+
+
+    app.get("/vehicles", async(req, res) => {
+      const products = vehicleCollection.find();
+      const result = await products.toArray();
+      res.send(result)
+    })
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
     console.log("Pinged your deployment. You successfully connected to MongoDB!");
@@ -40,7 +48,7 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-    res.send('vehicle funland server is now running')
+    res.send('vehicle running')
   })
   
   app.listen(port, () => {
