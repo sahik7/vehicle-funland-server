@@ -38,8 +38,10 @@ async function run() {
         console.log(req.query.ToyName);
         query = { ToyName: { $regex: req.query.ToyName, $options: "i" } };
       }
+      if (req.query.SubCategory) {
+        query["Sub-category"] = req.query.SubCategory;
+      }
       const result = await vehicleCollection.find(query).toArray();
-      console.log(result);
       res.send(result);
     });
 

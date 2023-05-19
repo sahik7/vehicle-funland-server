@@ -17,9 +17,9 @@
     },
     {
         "Seller": "Charlotte Davis",
-        "ToyName": "MightyBuilders construction",
+        "ToyName": "MightyBuilders Construction",
         "Image": "https://i.ibb.co/TPt4wZ8/8d487cd6-4815-44ef-b1f8-387f2f4b4541-9e5f50705fed7b013d48c7d9cd942f94-1.jpg",
-        "Sub-category": "construction",
+        "Sub-category": "Construction",
         "Price": "$28.99",
         "AvailableQuantity": 2
     },
@@ -27,7 +27,7 @@
         "Seller": "Oliver Johnson",
         "ToyName": "Build-o-Matic Construction",
         "Image": "https://i.ibb.co/VpH3L9x/71f09685-eb1c-45d7-9f09-5f930bef62d1-2d1e450b8ca4eebc3b1c079a4b748bbb.jpg",
-        "Sub-category": "construction",
+        "Sub-category": "Construction",
         "Price": "$45.99",
         "AvailableQuantity": 1
     },
@@ -35,7 +35,7 @@
         "Seller": "Ava Smith",
         "ToyName": "Mega Construction Maker",
         "Image": "https://i.ibb.co/0sTYNf8/cat-1.png",
-        "Sub-category": "construction",
+        "Sub-category": "Construction",
         "Price": "$9.99",
         "AvailableQuantity": 10
     },
