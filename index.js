@@ -41,10 +41,18 @@ async function run() {
       if (req.query.SubCategory) {
         query["SubCategory"] = req.query.SubCategory;
       }
-      const limit = 20;
-      const result = await vehicleCollection.find(query).limit(limit).toArray();
-      res.send(result);
+      const findResult = await vehicleCollection.find(query).toArray();
+      res.send(findResult);
     });
+
+
+
+    app.post("/vehicles", async (req, res) => {
+      const data = req.body;
+      const insertResult = await vehicleCollection.insertOne(data);
+      console.log(insertResult)
+      res.send(insertResult);
+    })
 
 
 
