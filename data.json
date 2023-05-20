@@ -64,7 +64,7 @@
     },
     {
         "Seller": "Sophia Taylor",
-        "ToyName": "Fly Master",
+        "ToyName": "Carletto Mini Racer",
         "Image": "https://i.ibb.co/cFvD8VM/1.jpg",
         "SubCategory": "Mini",
         "Price": "$21.99",
@@ -73,7 +73,7 @@
     },
     {
         "Seller": "William Anderson",
-        "ToyName": "Air Flyer",
+        "ToyName": "Mini Speedster Car",
         "Image": "https://i.ibb.co/0cP2mBB/2.jpg",
         "SubCategory": "Mini",
         "Price": "$39.99",
@@ -82,7 +82,7 @@
     },
     {
         "Seller": "Isabella Thompson",
-        "ToyName": "Fly Force",
+        "ToyName": "Microcar Mini Turbo",
         "Image": "https://i.ibb.co/h8nrqdy/3.jpg",
         "SubCategory": "Mini",
         "Price": "$14.99",
@@ -91,7 +91,7 @@
     },
     {
         "Seller": "James Johnson",
-        "ToyName": "Fly Wings",
+        "ToyName": "Miniature Car Cruiser",
         "Image": "https://i.ibb.co/s9nTpNn/4.jpg",
         "SubCategory": "Mini",
         "Price": "$24.99",
@@ -100,7 +100,7 @@
     },
     {
         "Seller": "Harper Davis",
-        "ToyName": "Ship Winds Voyager",
+        "ToyName": "Carito Mini Roadster",
         "Image": "https://i.ibb.co/y04QtSt/5.jpg",
         "SubCategory": "Mini",
         "Price": "$16.99",
@@ -109,7 +109,7 @@
     },
     {
         "Seller": "Benjamin Wilson",
-        "ToyName": "Ship Sail Seeker",
+        "ToyName": "Tiny Car Mini Drifter",
         "Image": "https://i.ibb.co/Qp1B1P5/6.jpg",
         "SubCategory": "Mini",
         "Price": "$9.99",
@@ -118,7 +118,7 @@
     },
     {
         "Seller": "Avery Brown",
-        "ToyName": "Sail Ship Explorer",
+        "ToyName": "Mini Wheels Carriage",
         "Image": "https://i.ibb.co/bz4Cp48/7.jpg",
         "SubCategory": "Mini",
         "Price": "$7.99",

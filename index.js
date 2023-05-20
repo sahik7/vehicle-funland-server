@@ -1,6 +1,6 @@
 const express = require('express');
 require('dotenv').config()
-const { MongoClient, ServerApiVersion } = require('mongodb');
+const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const app = express();
 const cors = require('cors');
 const port = process.env.PORT || 5000;
@@ -45,6 +45,24 @@ async function run() {
       res.send(findResult);
     });
 
+
+
+    app.get("/vehicles/:id", async (req, res) => {
+      const vehicleId = req.params.id;
+      console.log(vehicleId);
+    
+      try {
+        const findResult = await vehicleCollection.findOne({ _id: new ObjectId(vehicleId) });
+        if (findResult) {
+          console.log(findResult);
+          res.send(findResult);
+        } else {
+          res.status(404).send("Vehicle not found");
+        }
+      } catch (error) {
+        res.status(500).send("Internal server error");
+      }
+    });
 
 
     app.post("/vehicles", async (req, res) => {
