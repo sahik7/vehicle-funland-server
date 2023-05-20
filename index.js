@@ -39,15 +39,16 @@ async function run() {
         query = { ToyName: { $regex: req.query.ToyName, $options: "i" } };
       }
       if (req.query.SubCategory) {
-        query["Sub-category"] = req.query.SubCategory;
+        query["SubCategory"] = req.query.SubCategory;
       }
-      const result = await vehicleCollection.find(query).toArray();
+      const limit = 20;
+      const result = await vehicleCollection.find(query).limit(limit).toArray();
       res.send(result);
     });
 
 
 
-    
+
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
     console.log("Pinged your deployment. You successfully connected to MongoDB!");
