@@ -126,37 +126,10 @@
         "Rating": 3.9
     },
     {
-        "Seller": "Mason Taylor",
-        "ToyName": "Ship Mates Adventure",
-        "Image": "https://i.ibb.co/tKS5Yd3/0560b37c-68df-4371-ada2-5355f0e5e712-277dfe948f19363ce9c0806d0075a9f6.jpg",
-        "SubCategory": "Sailing",
-        "Price": "$29.99",
-        "AvailableQuantity": 4,
-        "Rating": 4.8
-    },
-    {
-        "Seller": "Isabella Thompson",
-        "ToyName": "SeaSail Ship wrecker",
-        "Image": "https://i.ibb.co/bsTRZSp/9fb2996e-4b9f-456e-ace8-47390f7c9afc-4c119ebd894ba6df2f0df53cb7784876.jpg",
-        "SubCategory": "Sailing",
-        "Price": "$14.99",
-        "AvailableQuantity": 7,
-        "Rating": 4.2
-    },
-    {
-        "Seller": "James Johnson",
-        "ToyName": "Ship Mates Adventure",
-        "Image": "https://i.ibb.co/sVVyK9H/9c147204-8e12-4ecf-aef9-91dfbf876790-414d5884af3741b4a90acc0de4e9abf7.jpg",
-        "SubCategory": "Sailing",
-        "Price": "$24.99",
-        "AvailableQuantity": 3,
-        "Rating": 4.1
-    },
-    {
         "Seller": "Harper Davis",
-        "ToyName": "Sail Ship Explorer",
-        "Image": "https://i.ibb.co/k2dSgg3/ec4600f3-a1b6-4c19-bc30-de3d6c37bb39-dcf9726714c579155fc5d3bdd42350d3.jpg",
-        "SubCategory": "Sailing",
+        "ToyName": "Waste Collector",
+        "Image": "https://i.ibb.co/KhcMtrP/3.jpg",
+        "SubCategory": "Truck",
         "Price": "$16.99",
         "AvailableQuantity": 5,
         "Rating": 3.8
@@ -164,7 +137,7 @@
     {
         "Seller": "Benjamin Wilson",
         "ToyName": "Power Plower tractor",
-        "Image": "https://i.ibb.co/hV8qwg6/ezgif-com-webp-to-jpg-1.jpg",
+        "Image": "https://i.ibb.co/6YYtGzw/2.jpg",
         "SubCategory": "Tractor",
         "Price": "$9.99",
         "AvailableQuantity": 10,
@@ -173,7 +146,7 @@
     {
         "Seller": "Avery Brown",
         "ToyName": "Tractor Tuff",
-        "Image": "https://i.ibb.co/jH6rc1L/ezgif-com-webp-to-jpg.jpg",
+        "Image": "https://i.ibb.co/zR4jpxv/1.jpg",
         "SubCategory": "Tractor",
         "Price": "$7.99",
         "AvailableQuantity": 6,
@@ -182,7 +155,7 @@
     {
         "Seller": "Mason Taylor",
         "ToyName": "Mega Monster truck",
-        "Image": "https://i.ibb.co/gTrCDrm/monstertruck.jpg",
+        "Image": "https://i.ibb.co/qBpP4yP/4.jpg",
         "SubCategory": "Truck",
         "Price": "$29.99",
         "AvailableQuantity": 4,
@@ -191,7 +164,7 @@
     {
         "Seller": "Isabella Thompson",
         "ToyName": "Mega Mover",
-        "Image": "https://i.ibb.co/DgN1RY5/toy-truck.jpg",
+        "Image": "https://i.ibb.co/QHPx476/5.jpg",
         "SubCategory": "Truck",
         "Price": "$14.99",
         "AvailableQuantity": 7,
@@ -200,7 +173,7 @@
     {
         "Seller": "James Johnson",
         "ToyName": "Turbo Trucker",
-        "Image": "https://i.ibb.co/mBm2d7W/bigtoytruck.jpg",
+        "Image": "https://i.ibb.co/MhKpDXx/1.jpg",
         "SubCategory": "Truck",
         "Price": "$24.99",
         "AvailableQuantity": 3,
@@ -209,7 +182,7 @@
     {
         "Seller": "Harper Davis",
         "ToyName": "Extreme Explorer",
-        "Image": "https://i.ibb.co/XXYTsG2/bigtoys.jpg",
+        "Image": "https://i.ibb.co/wChcnxy/2.jpg",
         "SubCategory": "Truck",
         "Price": "$16.99",
         "AvailableQuantity": 5,
