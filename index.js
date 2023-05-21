@@ -29,23 +29,36 @@ async function run() {
   try {
     const database = client.db("vehicleFunland");
     const vehicleCollection = database.collection("vehicles");
-    await client.connect();
 
 
     app.get("/vehicles", async (req, res) => {
+      const { ToyName, limit,page, SubCategory } = req.query;
+
       let query = {};
-      if (req.query.SellerEmail) {
-        query.SellerEmail = req.query.SellerEmail
+
+      if (ToyName) {
+        query.ToyName = { $regex: ToyName, $options: "i" };
       }
-      if (req.query.ToyName) {
-        console.log(req.query.ToyName);
-        query = { ToyName: { $regex: req.query.ToyName, $options: "i" } };
+
+      if(SubCategory){
+        query={SubCategory: SubCategory}
       }
-      if (req.query.SubCategory) {
-        query["SubCategory"] = req.query.SubCategory;
+
+      try {
+        let vehicles = [];
+        const pageNumber = parseInt(page) || 1;
+        const itemsPerPage = parseInt(limit) || 20;
+        const skipCount = (pageNumber - 1) * itemsPerPage;
+
+        vehicles = await vehicleCollection.find(query)
+          .skip(skipCount)
+          .limit(itemsPerPage)
+          .toArray();
+
+        res.json(vehicles);
+      } catch (error) {
+        console.log(error);
       }
-      const findResult = await vehicleCollection.find(query).toArray();
-      res.send(findResult);
     });
 
 
@@ -59,13 +72,7 @@ async function run() {
 
       try {
         const findResult = await vehicleCollection.findOne({ _id: new ObjectId(vehicleId) });
-        console.log(findResult);
         res.send(findResult);
-        //   if (findResult) {
-        //     console.log(findResult);
-        //   } else {
-        //     res.status(404).send("Vehicle not found");
-        //   }
       } catch (error) {
         res.status(500).send("Internal server error");
       }
@@ -73,14 +80,16 @@ async function run() {
 
 
 
-
+    app.get("/vehicleCount", async (req, res) => {
+      const productData = await vehicleCollection.estimatedDocumentCount();
+      res.send({ productCount: productData })
+    })
 
 
 
     app.post("/vehicles", async (req, res) => {
       const data = req.body;
       const insertResult = await vehicleCollection.insertOne(data);
-      console.log(insertResult)
       res.send(insertResult);
     })
 
@@ -88,19 +97,18 @@ async function run() {
     app.put("/vehicles/:id", async (req, res) => {
       const { id } = req.params;
       const updateData = req.body;
-console.log(updateData)
-      const filter = {_id: new ObjectId(id)}
-      const options =  {upsert: true}
+      console.log(updateData)
+      const filter = { _id: new ObjectId(id) }
+      const options = { upsert: true }
       const updatedVehicles = {
-$set:{
-  Price: updateData.Price,
-  AvailableQuantity: updateData.AvailableQuantity,
-  Details: updateData.Details
-}
+        $set: {
+          Price: updateData.Price,
+          AvailableQuantity: updateData.AvailableQuantity,
+          Details: updateData.Details
+        }
       }
 
-        const updatedVehicle = await vehicleCollection.updateOne(filter, updatedVehicles, options);
-      console.log(updatedVehicle)
+      const updatedVehicle = await vehicleCollection.updateOne(filter, updatedVehicles, options);
       res.send(updatedVehicle);
     })
 
@@ -108,7 +116,7 @@ $set:{
 
     app.delete("/vehicles/:id", async (req, res) => {
       const { id } = req.params;
-      const deletedUser = await vehicleCollection.deleteOne({ _id: new ObjectId( id) });
+      const deletedUser = await vehicleCollection.deleteOne({ _id: new ObjectId(id) });
       console.log(deletedUser);
       res.send(deletedUser)
     })
@@ -117,8 +125,6 @@ $set:{
 
 
     // Send a ping to confirm a successful connection
-    await client.db("admin").command({ ping: 1 });
-    console.log("Pinged your deployment. You successfully connected to MongoDB!");
   } finally {
     // Ensures that the client will close when you finish/error
   }

@@ -7,7 +7,8 @@
         "Price": "34.99",
         "AvailableQuantity": 3,
         "Rating": 4.5,
-        "Details": "The Turbo Racers Car is a high-speed racing car designed for adrenaline junkies. It features a sleek design, powerful engine, and advanced aerodynamics for maximum performance on the track. Get ready to experience the thrill of speed with this fantastic toy car!"
+        "Details": "The Turbo Racers Car is a high-speed racing car designed for adrenaline junkies. It features a sleek design, powerful engine, and advanced aerodynamics for maximum performance on the track. Get ready to experience the thrill of speed with this fantastic toy car!",
+        "Email": "john.doe@example.com"
     },
     {
         "Seller": "Liam Thompson",
@@ -17,7 +18,8 @@
         "Price": "19.99",
         "AvailableQuantity": 6,
         "Rating": 3.8,
-        "Details": "The Velocity Wheels Car is a stylish and fast toy car that will leave you amazed. It features a vibrant color scheme, sleek body design, and high-performance wheels for a smooth ride. With its affordable price and cool looks, this toy car is perfect for all car enthusiasts."
+        "Details": "The Velocity Wheels Car is a stylish and fast toy car that will leave you amazed. It features a vibrant color scheme, sleek body design, and high-performance wheels for a smooth ride. With its affordable price and cool looks, this toy car is perfect for all car enthusiasts.",
+        "Email": "ava.smith@example.com"
     },
     {
         "Seller": "Charlotte Davis",
@@ -27,7 +29,8 @@
         "Price": "28.99",
         "AvailableQuantity": 2,
         "Rating": 4.2,
-        "Details": "Unleash your creativity with the MightyBuilders Construction set. This amazing toy allows you to build and create various structures using durable and colorful building blocks. Whether you want to construct buildings, bridges, or anything you can imagine, this set will provide endless fun and learning opportunities."
+        "Details": "Unleash your creativity with the MightyBuilders Construction set. This amazing toy allows you to build and create various structures using durable and colorful building blocks. Whether you want to construct buildings, bridges, or anything you can imagine, this set will provide endless fun and learning opportunities.",
+        "Email": "john.doe@example.com"
     },
     {
         "Seller": "Oliver Johnson",
@@ -37,7 +40,8 @@
         "Price": "45.99",
         "AvailableQuantity": 1,
         "Rating": 4.7,
-        "Details": "Build big and build bold with the Build-o-Matic Construction set. This comprehensive set includes a wide range of building components, such as beams, connectors, and panels, allowing you to create impressive structures. With its high-quality materials and versatile design, this construction set is perfect for aspiring builders."
+        "Details": "Build big and build bold with the Build-o-Matic Construction set. This comprehensive set includes a wide range of building components, such as beams, connectors, and panels, allowing you to create impressive structures. With its high-quality materials and versatile design, this construction set is perfect for aspiring builders.",
+        "Email": "jennifersmith1234@gmail.com"
     },
     {
         "Seller": "Ava Smith",
@@ -47,7 +51,8 @@
         "Price": "9.99",
         "AvailableQuantity": 10,
         "Rating": 3.5,
-        "Details": "Unleash your imagination with the Mega Construction Maker. This set includes a variety of colorful blocks and connectors that can be easily assembled to create unique structures. From houses and towers to vehicles and animals, the possibilities are endless. Let your creativity run wild with this fantastic construction toy!"
+        "Details": "Unleash your imagination with the Mega Construction Maker. This set includes a variety of colorful blocks and connectors that can be easily assembled to create unique structures. From houses and towers to vehicles and animals, the possibilities are endless. Let your creativity run wild with this fantastic construction toy!",
+        "Email": "ava.smith@example.com"
     },
     {
         "Seller": "Mia Johnson",
@@ -57,7 +62,8 @@
         "Price": "12.99",
         "AvailableQuantity": 8,
         "Rating": 4.1,
-        "Details": "Go big with the Yellow Giant construction toy. This set features large, easy-to-handle blocks in vibrant yellow color. Build tall towers, sturdy structures, and impressive designs with these chunky blocks. The Yellow Giant provides endless building fun for young builders and encourages creativity and spatial skills."
+        "Details": "Go big with the Yellow Giant construction toy. This set features large, easy-to-handle blocks in vibrant yellow color. Build tall towers, sturdy structures, and impressive designs with these chunky blocks. The Yellow Giant provides endless building fun for young builders and encourages creativity and spatial skills.",
+        "Email": "jennifersmith1234@gmail.com"
     },
     {
         "Seller": "Ethan Wilson",
@@ -67,7 +73,8 @@
         "Price": "69.99",
         "AvailableQuantity": 3,
         "Rating": 4.8,
-        "Details": "Unleash the power of imagination with the Bugger Beast construction set. This set includes a variety of unique components, such as gears, wheels, and connectors, allowing you to create moving structures and mechanical wonders. With its durable construction and limitless possibilities, the Bugger Beast is perfect for young inventors and engineers."
+        "Details": "Unleash the power of imagination with the Bugger Beast construction set. This set includes a variety of unique components, such as gears, wheels, and connectors, allowing you to create moving structures and mechanical wonders. With its durable construction and limitless possibilities, the Bugger Beast is perfect for young inventors and engineers.",
+        "Email": "jennifersmith1234@gmail.com"
     },
     {
         "Seller": "Sophia Taylor",
@@ -77,7 +84,8 @@
         "Price": "21.99",
         "AvailableQuantity": 4,
         "Rating": 4.3,
-        "Details": "Experience the thrill of speed with the Carletto Mini Racer. This compact toy car features a sleek design and smooth wheels, allowing it to zip through tracks and obstacle courses with ease. Whether you're racing against friends or performing cool stunts, this mini racer guarantees hours of fun and excitement."
+        "Details": "Experience the thrill of speed with the Carletto Mini Racer. This compact toy car features a sleek design and smooth wheels, allowing it to zip through tracks and obstacle courses with ease. Whether you're racing against friends or performing cool stunts, this mini racer guarantees hours of fun and excitement.",
+        "Email": "john.doe@example.com"
     },
     {
         "Seller": "William Anderson",
@@ -87,7 +95,8 @@
         "Price": "39.99",
         "AvailableQuantity": 2,
         "Rating": 3.9,
-        "Details": "Get ready to race with the Mini Speedster Car. This sleek and stylish toy car is designed for maximum speed and performance. With its aerodynamic shape and powerful wheels, it's perfect for racing enthusiasts. Whether you're competing on a track or staging your own races, the Mini Speedster Car will deliver endless fun."
+        "Details": "Get ready to race with the Mini Speedster Car. This sleek and stylish toy car is designed for maximum speed and performance. With its aerodynamic shape and powerful wheels, it's perfect for racing enthusiasts. Whether you're competing on a track or staging your own races, the Mini Speedster Car will deliver endless fun.",
+        "Email": "jennifersmith1234@gmail.com"
     },
     {
         "Seller": "Isabella Thompson",
@@ -97,7 +106,8 @@
         "Price": "14.99",
         "AvailableQuantity": 7,
         "Rating": 4.6,
-        "Details": "Experience turbocharged fun with the Microcar Mini Turbo. This tiny toy car may be small in size but packs a punch. With its powerful engine and sleek design, it can outperform larger vehicles on the race track. Collect multiple Mini Turbos and organize thrilling races with your friends for an unforgettable experience."
+        "Details": "Experience turbocharged fun with the Microcar Mini Turbo. This tiny toy car may be small in size but packs a punch. With its powerful engine and sleek design, it can outperform larger vehicles on the race track. Collect multiple Mini Turbos and organize thrilling races with your friends for an unforgettable experience.",
+        "Email": "ava.smith@example.com"
     },
     {
         "Seller": "James Johnson",
@@ -107,7 +117,8 @@
         "Price": "24.99",
         "AvailableQuantity": 3,
         "Rating": 3.7,
-        "Details": "Cruise in style with the Miniature Car Cruiser. This compact and colorful toy car is perfect for little hands. With its smooth wheels and sturdy construction, it's designed to provide endless hours of imaginative play. Take it on adventures, create your own racing tracks, and let your imagination drive you to new destinations."
+        "Details": "Cruise in style with the Miniature Car Cruiser. This compact and colorful toy car is perfect for little hands. With its smooth wheels and sturdy construction, it's designed to provide endless hours of imaginative play. Take it on adventures, create your own racing tracks, and let your imagination drive you to new destinations.",
+        "Email": "jennifersmith1234@gmail.com"
     },
     {
         "Seller": "Harper Davis",
@@ -117,7 +128,8 @@
         "Price": "16.99",
         "AvailableQuantity": 5,
         "Rating": 4.0,
-        "Details": "Hit the road in style with the Carito Mini Roadster. This sleek and sporty toy car is designed for speed and performance. With its aerodynamic design and precision engineering, it's perfect for racing enthusiasts. Whether you're racing against friends or going on solo adventures, the Carito Mini Roadster guarantees an exhilarating experience."
+        "Details": "Hit the road in style with the Carito Mini Roadster. This sleek and sporty toy car is designed for speed and performance. With its aerodynamic design and precision engineering, it's perfect for racing enthusiasts. Whether you're racing against friends or going on solo adventures, the Carito Mini Roadster guarantees an exhilarating experience.",
+        "Email": "samuel.wilson34@outlook.com"
     },
     {
         "Seller": "Benjamin Wilson",
@@ -127,7 +139,8 @@
         "Price": "9.99",
         "AvailableQuantity": 10,
         "Rating": 4.4,
-        "Details": "Drift into fun with the Tiny Car Mini Drifter. This compact toy car features unique drifting wheels that allow it to slide and spin around corners. Whether you're performing drift maneuvers or practicing precision driving, the Mini Drifter provides endless entertainment. Get ready for exciting and adrenaline-fueled adventures!"
+        "Details": "Drift into fun with the Tiny Car Mini Drifter. This compact toy car features unique drifting wheels that allow it to slide and spin around corners. Whether you're performing drift maneuvers or practicing precision driving, the Mini Drifter provides endless entertainment. Get ready for exciting and adrenaline-fueled adventures!",
+        "Email": "john.doe@example.com"
     },
     {
         "Seller": "Avery Brown",
@@ -137,7 +150,8 @@
         "Price": "7.99",
         "AvailableQuantity": 6,
         "Rating": 3.9,
-        "Details": "Enter the magical world of fairy tales with the Mini Wheels Carriage. This enchanting toy features a beautiful carriage design with intricate details. Pull it along and let your imagination take you on a journey to far-off lands and grand adventures. The Mini Wheels Carriage is perfect for imaginative play and storytelling."
+        "Details": "Enter the magical world of fairy tales with the Mini Wheels Carriage. This enchanting toy features a beautiful carriage design with intricate details. Pull it along and let your imagination take you on a journey to far-off lands and grand adventures. The Mini Wheels Carriage is perfect for imaginative play and storytelling.",
+        "Email": "samuel.wilson34@outlook.com"
     },
     {
         "Seller": "Harper Davis",
@@ -147,7 +161,8 @@
         "Price": "16.99",
         "AvailableQuantity": 5,
         "Rating": 3.8,
-        "Details": "Keep the city clean with the Waste Collector truck. This rugged and realistic toy truck is equipped with a functional waste container, allowing you to collect and transport imaginary trash. Teach the importance of cleanliness and environmental responsibility while having fun with this interactive toy."
+        "Details": "Keep the city clean with the Waste Collector truck. This rugged and realistic toy truck is equipped with a functional waste container, allowing you to collect and transport imaginary trash. Teach the importance of cleanliness and environmental responsibility while having fun with this interactive toy.",
+        "Email": "jennifersmith1234@gmail.com"
     },
     {
         "Seller": "Benjamin Wilson",
@@ -157,7 +172,8 @@
         "Price": "9.99",
         "AvailableQuantity": 10,
         "Rating": 4.3,
-        "Details": "Get ready for heavy-duty work with the Power Plower tractor. This robust toy tractor features a realistic design and movable parts, allowing you to plow through imaginary fields and move obstacles out of the way. Whether you're farming or on a construction mission, the Power Plower tractor is up for the task."
+        "Details": "Get ready for heavy-duty work with the Power Plower tractor. This robust toy tractor features a realistic design and movable parts, allowing you to plow through imaginary fields and move obstacles out of the way. Whether you're farming or on a construction mission, the Power Plower tractor is up for the task.",
+        "Email": "samuel.wilson34@outlook.com"
     },
     {
         "Seller": "Avery Brown",
@@ -167,7 +183,8 @@
         "Price": "7.99",
         "AvailableQuantity": 6,
         "Rating": 4.7,
-        "Details": "Conquer rough terrains with the Rocky Racer Truck. This sturdy and durable toy truck is built to handle all types of surfaces. With its rugged design and powerful wheels, it can navigate through obstacles and climb over rocks with ease. Embark on exciting off-road adventures with the Rocky Racer Truck!"
+        "Details": "Conquer rough terrains with the Rocky Racer Truck. This sturdy and durable toy truck is built to handle all types of surfaces. With its rugged design and powerful wheels, it can navigate through obstacles and climb over rocks with ease. Embark on exciting off-road adventures with the Rocky Racer Truck!",
+        "Email": "sarah.jackson55@protonmail.com"
     },
     {
         "Seller": "Mason Taylor",
@@ -177,7 +194,8 @@
         "Price": "29.99",
         "AvailableQuantity": 4,
         "Rating": 3.5,
-        "Details": "Transport goods and vehicles with the Transporter Truck. This versatile toy truck features a detachable trailer that can carry other toy cars or construction vehicles. Load up the trailer and embark on exciting transportation missions. With its realistic design and sturdy construction, the Transporter Truck ensures hours of imaginative play."
+        "Details": "Transport goods and vehicles with the Transporter Truck. This versatile toy truck features a detachable trailer that can carry other toy cars or construction vehicles. Load up the trailer and embark on exciting transportation missions. With its realistic design and sturdy construction, the Transporter Truck ensures hours of imaginative play.",
+        "Email": "sarah.jackson55@protonmail.com"
     },
     {
         "Seller": "Isabella Thompson",
@@ -187,7 +205,8 @@
         "Price": "14.99",
         "AvailableQuantity": 7,
         "Rating": 4.2,
-        "Details": "Conquer any terrain with the Monster Wheels Truck. This rugged and powerful toy truck features oversized wheels and a sturdy frame, allowing it to tackle obstacles and rough surfaces with ease. Whether you're racing, performing stunts, or going on off-road adventures, the Monster Wheels Truck is ready to take on the challenge."
+        "Details": "Conquer any terrain with the Monster Wheels Truck. This rugged and powerful toy truck features oversized wheels and a sturdy frame, allowing it to tackle obstacles and rough surfaces with ease. Whether you're racing, performing stunts, or going on off-road adventures, the Monster Wheels Truck is ready to take on the challenge.",
+        "Email": "john.doe@example.com"
     },
     {
         "Seller": "James Johnson",
@@ -197,7 +216,8 @@
         "Price": "24.99",
         "AvailableQuantity": 3,
         "Rating": 4.5,
-        "Details": "extreme obstacles with ease using the Turbo Trucker Truck advanced suspension system. It's equipped with powerful shock absorbers that allow for smooth rides and impressive jumps, making it the ultimate off-road companion."
+        "Details": "extreme obstacles with ease using the Turbo Trucker Truck advanced suspension system. It's equipped with powerful shock absorbers that allow for smooth rides and impressive jumps, making it the ultimate off-road companion.",
+        "Email": "john.doe@example.com"
     },
     {
         "Seller": "Harper Davis",
@@ -207,6 +227,12 @@
         "Price": "16.99",
         "AvailableQuantity": 5,
         "Rating": 3.9,
-        "Details": "Truck features realistic sound effects that mimic the roaring engine and rumbling power of a real monster truck. Hear the engine rev, the tires screech, and the crowd cheer as you navigate through rugged terrains."
+        "Details": "Truck features realistic sound effects that mimic the roaring engine and rumbling power of a real monster truck. Hear the engine rev, the tires screech, and the crowd cheer as you navigate through rugged terrains.",
+        "Email": "sarah.jackson55@protonmail.com"
     }
 ]
+
+
+
+
+
