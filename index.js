@@ -32,7 +32,8 @@ async function run() {
 
 
     app.get("/vehicles", async (req, res) => {
-      const { ToyName, limit,page, SubCategory } = req.query;
+      const { ToyName, limit,page, SubCategory, SellerEmail } = req.query;
+      console.log(SubCategory);
 
       let query = {};
 
@@ -42,6 +43,9 @@ async function run() {
 
       if(SubCategory){
         query={SubCategory: SubCategory}
+      }
+      if(SellerEmail){
+        query={SellerEmail: SellerEmail}
       }
 
       try {
@@ -90,6 +94,7 @@ async function run() {
     app.post("/vehicles", async (req, res) => {
       const data = req.body;
       const insertResult = await vehicleCollection.insertOne(data);
+      console.log(insertResult);
       res.send(insertResult);
     })
 
