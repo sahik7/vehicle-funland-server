@@ -34,6 +34,9 @@ async function run() {
 
     app.get("/vehicles", async (req, res) => {
       let query = {};
+      if (req.query.SellerEmail) {
+        query.SellerEmail = req.query.SellerEmail
+      }
       if (req.query.ToyName) {
         console.log(req.query.ToyName);
         query = { ToyName: { $regex: req.query.ToyName, $options: "i" } };
@@ -47,22 +50,31 @@ async function run() {
 
 
 
+
+
+
+
     app.get("/vehicles/:id", async (req, res) => {
       const vehicleId = req.params.id;
-      console.log(vehicleId);
-    
+
       try {
         const findResult = await vehicleCollection.findOne({ _id: new ObjectId(vehicleId) });
-        if (findResult) {
-          console.log(findResult);
-          res.send(findResult);
-        } else {
-          res.status(404).send("Vehicle not found");
-        }
+        console.log(findResult);
+        res.send(findResult);
+        //   if (findResult) {
+        //     console.log(findResult);
+        //   } else {
+        //     res.status(404).send("Vehicle not found");
+        //   }
       } catch (error) {
         res.status(500).send("Internal server error");
       }
     });
+
+
+
+
+
 
 
     app.post("/vehicles", async (req, res) => {
@@ -70,6 +82,26 @@ async function run() {
       const insertResult = await vehicleCollection.insertOne(data);
       console.log(insertResult)
       res.send(insertResult);
+    })
+
+
+    app.put("/vehicles/:id", async (req, res) => {
+      const { id } = req.params;
+      const updateData = req.body;
+console.log(updateData)
+      const filter = {_id: new ObjectId(id)}
+      const options =  {upsert: true}
+      const updatedVehicles = {
+$set:{
+  Price: updateData.Price,
+  AvailableQuantity: updateData.AvailableQuantity,
+  Details: updateData.Details
+}
+      }
+
+        const updatedVehicle = await vehicleCollection.updateOne(filter, updatedVehicles, options);
+      console.log(updatedVehicle)
+      res.send(updatedVehicle);
     })
 
 
