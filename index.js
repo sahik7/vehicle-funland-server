@@ -106,6 +106,15 @@ $set:{
 
 
 
+    app.delete("/vehicles/:id", async (req, res) => {
+      const { id } = req.params;
+      const deletedUser = await vehicleCollection.deleteOne({ _id: new ObjectId( id) });
+      console.log(deletedUser);
+      res.send(deletedUser)
+    })
+
+
+
 
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
@@ -116,10 +125,6 @@ $set:{
 }
 run().catch(console.dir);
 
-
-app.get('/', (req, res) => {
-  res.send('vehicle running')
-})
 
 app.listen(port, () => {
   console.log(`server is running on port: ${port}`);
